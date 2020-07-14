@@ -13,6 +13,9 @@
     <li>Документы:
         <?echo ($animal['passport']) ? 'есть' :  'нет'?>
     </li>
+    <li>Прививки:
+        <?echo ($animal['vaccination']) ? 'есть' :  'нет'?>
+    </li>
     <li>
         <a href="/animals/<?echo $animal['name']?>/<?echo $animal['id_animal']?>">Подробнее...</a>
     </li>
