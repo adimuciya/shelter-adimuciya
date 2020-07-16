@@ -1,10 +1,8 @@
-<h3>Главная страница</h3>
-<?php foreach ($animals as $animal ):?>
 <h4><? echo $animal['animal_name'] ?></h4>
 <ul>
     <li>
         <a href="/animals/<?echo $animal['name']?>">
-        <!-- параметры запроса получаем в объекте реквест, метод params() -->
+            <!-- параметры запроса получаем в объекте реквест, метод params() -->
             Категория:
             <? echo $animal['description'] ?>
         </a>
@@ -17,8 +15,4 @@
     <li>Прививки:
         <?echo ($animal['vaccination']) ? 'есть' :  'нет'?>
     </li>
-    <li>
-        <a href="/animals/<?echo $animal['name']?>/<?echo $animal['id_animal']?>">Подробнее...</a>
-    </li>
 </ul>
-<?php endforeach;?>

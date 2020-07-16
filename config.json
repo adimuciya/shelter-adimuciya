@@ -34,6 +34,11 @@
       "path": "/animals/{category}",
       "controller": "Ifmo\\Web\\Controllers\\AnimalController::showCategory",
       "method": "GET"
+    },
+    "animal by id": {
+      "path": "/animals/{category}/{id}",
+      "controller": "Ifmo\\Web\\Controllers\\AnimalController::showAnimal",
+      "method": "GET"
     }
   },
   "db": {
