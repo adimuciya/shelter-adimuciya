@@ -39,6 +39,21 @@
       "path": "/animals/{category}/{id}",
       "controller": "Ifmo\\Web\\Controllers\\AnimalController::showAnimal",
       "method": "GET"
+    },
+    "api animals": {
+      "path": "/api/animals",
+      "controller": "Ifmo\\Web\\Controllers\\AnimalApi::animals",
+      "method": "GET"
+    },
+    "api add animal": {
+      "path": "/api/add/animal",
+      "controller": "Ifmo\\Web\\Controllers\\AnimalApi::addAnimal",
+      "method": "POST"
+    },
+    "api edit animal": {
+      "path": "/api/edit/animal",
+      "controller": "Ifmo\\Web\\Controllers\\AnimalApi::editAnimal",
+      "method": "POST"
     }
   },
   "db": {
