@@ -20,12 +20,13 @@ class AccountService extends Service // класс уровня Model
     public function addUser(array $reg_data){
 
         // TODO:: Валидация!!!
-//        [
-//            'email'=> '',
-//            'password' => '',
-//            'name'=> '',
-//            'phone'=>
-//        ]
+        //        [
+        //            'email'=> '',
+        //            'password' => '',
+        //            'name'=> '',
+        //            'phone'=>
+        //        ]
+
         // проверка на наличие пользователя в бд (по email в нашем случае)
         // зашифровать пароль
         // заносим данные в бд

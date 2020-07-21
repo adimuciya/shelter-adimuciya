@@ -11,6 +11,7 @@ class Controller
 //        var_dump($routeInfo);
         switch ($routeInfo[0]){
             case 0:
+                // TODO::вызов метода ErrorController->getErrorPage();
                 var_dump("404 NOT FOUND");
                 break;
             case 2:
